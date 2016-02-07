@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930B3F7D1C66E1C4000A6C04 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F7C1C66E1C4000A6C04 /* Dog.swift */; };
+		930B3F801C66E28B000A6C04 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F7F1C66E28B000A6C04 /* FirebaseManager.swift */; };
+		930B3F841C66E4DA000A6C04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F831C66E4DA000A6C04 /* Constants.swift */; };
+		930B3F861C66F34C000A6C04 /* DogFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F851C66F34C000A6C04 /* DogFeedViewController.swift */; };
+		930B3F891C66F573000A6C04 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F881C66F573000A6C04 /* TableData.swift */; };
+		930B3F8B1C66F7B3000A6C04 /* DogFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F8A1C66F7B3000A6C04 /* DogFeedCell.swift */; };
+		930B3F8D1C6768FD000A6C04 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F8C1C6768FD000A6C04 /* CreateAccountViewController.swift */; };
+		930B3F8F1C676942000A6C04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F8E1C676942000A6C04 /* LoginViewController.swift */; };
+		930B3F931C679B6E000A6C04 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F921C679B6E000A6C04 /* PhotoManager.swift */; };
+		930B3F951C67A919000A6C04 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B3F941C67A919000A6C04 /* Protocols.swift */; };
 		938DD6BA1C639C8300FCE60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938DD6B91C639C8300FCE60B /* AppDelegate.swift */; };
-		938DD6BC1C639C8300FCE60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938DD6BB1C639C8300FCE60B /* ViewController.swift */; };
 		938DD6BF1C639C8300FCE60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938DD6BD1C639C8300FCE60B /* Main.storyboard */; };
 		938DD6C11C639C8300FCE60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938DD6C01C639C8300FCE60B /* Assets.xcassets */; };
 		938DD6C41C639C8300FCE60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938DD6C21C639C8300FCE60B /* LaunchScreen.storyboard */; };
 		938DD6CF1C639C8300FCE60B /* FirebaseDogsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938DD6CE1C639C8300FCE60B /* FirebaseDogsAppTests.swift */; };
 		938DD6DA1C639C8300FCE60B /* FirebaseDogsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938DD6D91C639C8300FCE60B /* FirebaseDogsAppUITests.swift */; };
+		E6984131878FED4617744956 /* Pods_FirebaseDogsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E78D06062CCB1729C9A12F /* Pods_FirebaseDogsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		553DE1638723A6B6791EF98F /* Pods-FirebaseDogsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDogsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDogsApp/Pods-FirebaseDogsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		930B3F7C1C66E1C4000A6C04 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		930B3F7F1C66E28B000A6C04 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		930B3F811C66E318000A6C04 /* libFirebase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFirebase.a; path = "Pods/../build/Debug-iphoneos/libFirebase.a"; sourceTree = "<group>"; };
+		930B3F831C66E4DA000A6C04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		930B3F851C66F34C000A6C04 /* DogFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogFeedViewController.swift; sourceTree = "<group>"; };
+		930B3F881C66F573000A6C04 /* TableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
+		930B3F8A1C66F7B3000A6C04 /* DogFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogFeedCell.swift; sourceTree = "<group>"; };
+		930B3F8C1C6768FD000A6C04 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		930B3F8E1C676942000A6C04 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		930B3F921C679B6E000A6C04 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		930B3F941C67A919000A6C04 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		938DD6B61C639C8300FCE60B /* FirebaseDogsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseDogsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938DD6B91C639C8300FCE60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		938DD6BB1C639C8300FCE60B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		938DD6BE1C639C8300FCE60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938DD6C01C639C8300FCE60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938DD6C31C639C8300FCE60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,8 @@
 		938DD6D51C639C8300FCE60B /* FirebaseDogsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseDogsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938DD6D91C639C8300FCE60B /* FirebaseDogsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDogsAppUITests.swift; sourceTree = "<group>"; };
 		938DD6DB1C639C8300FCE60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4836EAEEB92D253DB39ED25 /* Pods-FirebaseDogsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDogsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDogsApp/Pods-FirebaseDogsApp.release.xcconfig"; sourceTree = "<group>"; };
+		F7E78D06062CCB1729C9A12F /* Pods_FirebaseDogsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDogsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6984131878FED4617744956 /* Pods_FirebaseDogsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EB50324BEF5FB6A7F151DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				553DE1638723A6B6791EF98F /* Pods-FirebaseDogsApp.debug.xcconfig */,
+				E4836EAEEB92D253DB39ED25 /* Pods-FirebaseDogsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		930B3F7E1C66E219000A6C04 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				930B3F7F1C66E28B000A6C04 /* FirebaseManager.swift */,
+				930B3F921C679B6E000A6C04 /* PhotoManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		930B3F871C66F48C000A6C04 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				930B3F881C66F573000A6C04 /* TableData.swift */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
 		938DD6AD1C639C8300FCE60B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				938DD6CD1C639C8300FCE60B /* FirebaseDogsAppTests */,
 				938DD6D81C639C8300FCE60B /* FirebaseDogsAppUITests */,
 				938DD6B71C639C8300FCE60B /* Products */,
+				0EB50324BEF5FB6A7F151DBA /* Pods */,
+				A38C9030D1316DB79A19DEB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +149,13 @@
 		938DD6B81C639C8300FCE60B /* FirebaseDogsApp */ = {
 			isa = PBXGroup;
 			children = (
-				938DD6B91C639C8300FCE60B /* AppDelegate.swift */,
 				938DD6E71C639D0B00FCE60B /* Utilities */,
+				930B3F7E1C66E219000A6C04 /* Managers */,
 				938DD6E81C639D1C00FCE60B /* Model */,
 				938DD6E91C639D3300FCE60B /* View */,
 				938DD6EA1C639D3F00FCE60B /* Controller */,
+				930B3F871C66F48C000A6C04 /* DataSources */,
+				938DD6B91C639C8300FCE60B /* AppDelegate.swift */,
 				938DD6BD1C639C8300FCE60B /* Main.storyboard */,
 				938DD6C01C639C8300FCE60B /* Assets.xcassets */,
 				938DD6C21C639C8300FCE60B /* LaunchScreen.storyboard */,
@@ -131,6 +185,8 @@
 		938DD6E71C639D0B00FCE60B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				930B3F831C66E4DA000A6C04 /* Constants.swift */,
+				930B3F941C67A919000A6C04 /* Protocols.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -138,6 +194,7 @@
 		938DD6E81C639D1C00FCE60B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				930B3F7C1C66E1C4000A6C04 /* Dog.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -145,6 +202,7 @@
 		938DD6E91C639D3300FCE60B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				930B3F8A1C66F7B3000A6C04 /* DogFeedCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -152,9 +210,20 @@
 		938DD6EA1C639D3F00FCE60B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				938DD6BB1C639C8300FCE60B /* ViewController.swift */,
+				930B3F851C66F34C000A6C04 /* DogFeedViewController.swift */,
+				930B3F8C1C6768FD000A6C04 /* CreateAccountViewController.swift */,
+				930B3F8E1C676942000A6C04 /* LoginViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A38C9030D1316DB79A19DEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930B3F811C66E318000A6C04 /* libFirebase.a */,
+				F7E78D06062CCB1729C9A12F /* Pods_FirebaseDogsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938DD6DE1C639C8300FCE60B /* Build configuration list for PBXNativeTarget "FirebaseDogsApp" */;
 			buildPhases = (
+				C00453CCD154817421CA04FD /* Check Pods Manifest.lock */,
 				938DD6B21C639C8300FCE60B /* Sources */,
 				938DD6B31C639C8300FCE60B /* Frameworks */,
 				938DD6B41C639C8300FCE60B /* Resources */,
+				710F58EA1154B6EE445D2232 /* Embed Pods Frameworks */,
+				4A26FA3C2045AB1BE0A666A0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,13 +355,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A26FA3C2045AB1BE0A666A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseDogsApp/Pods-FirebaseDogsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710F58EA1154B6EE445D2232 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseDogsApp/Pods-FirebaseDogsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00453CCD154817421CA04FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		938DD6B21C639C8300FCE60B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938DD6BC1C639C8300FCE60B /* ViewController.swift in Sources */,
+				930B3F8F1C676942000A6C04 /* LoginViewController.swift in Sources */,
+				930B3F891C66F573000A6C04 /* TableData.swift in Sources */,
+				930B3F841C66E4DA000A6C04 /* Constants.swift in Sources */,
+				930B3F951C67A919000A6C04 /* Protocols.swift in Sources */,
+				930B3F801C66E28B000A6C04 /* FirebaseManager.swift in Sources */,
+				930B3F861C66F34C000A6C04 /* DogFeedViewController.swift in Sources */,
+				930B3F8D1C6768FD000A6C04 /* CreateAccountViewController.swift in Sources */,
 				938DD6BA1C639C8300FCE60B /* AppDelegate.swift in Sources */,
+				930B3F7D1C66E1C4000A6C04 /* Dog.swift in Sources */,
+				930B3F931C679B6E000A6C04 /* PhotoManager.swift in Sources */,
+				930B3F8B1C66F7B3000A6C04 /* DogFeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +558,15 @@
 		};
 		938DD6DF1C639C8300FCE60B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553DE1638723A6B6791EF98F /* Pods-FirebaseDogsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseDogsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GrantPark.FirebaseDogsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -440,10 +574,15 @@
 		};
 		938DD6E01C639C8300FCE60B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4836EAEEB92D253DB39ED25 /* Pods-FirebaseDogsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseDogsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GrantPark.FirebaseDogsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -516,6 +655,7 @@
 				938DD6E01C639C8300FCE60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		938DD6E11C639C8300FCE60B /* Build configuration list for PBXNativeTarget "FirebaseDogsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +664,7 @@
 				938DD6E31C639C8300FCE60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		938DD6E41C639C8300FCE60B /* Build configuration list for PBXNativeTarget "FirebaseDogsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +673,7 @@
 				938DD6E61C639C8300FCE60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
